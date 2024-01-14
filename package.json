@@ -1,0 +1,25 @@
+{
+  "name": "temsi",
+  "version": "1.0.0",
+  "description": "webpage temsi",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "lint:check": "prettier --check pages/",
+    "lint:fix": "prettier --write pages/"
+  },
+  "author": "mxzcabel",
+  "license": "MIT",
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
+    "js-beautify": "^1.14.11",
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.2"
+  }
+}
